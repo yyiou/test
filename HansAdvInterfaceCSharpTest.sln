@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansAdvInterfaceCSharpTest", "HansAdvInterfaceCSharpTest\HansAdvInterfaceCSharpTest.csproj", "{A162387B-CA5B-4082-AF4F-27756D30092A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Debug|x86.ActiveCfg = Debug|x86
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Debug|x86.Build.0 = Debug|x86
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Release|x86.ActiveCfg = Release|x86
+		{A162387B-CA5B-4082-AF4F-27756D30092A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A28E14E-F418-4D00-BE01-24CB1BA9B4B4}
+	EndGlobalSection
+EndGlobal

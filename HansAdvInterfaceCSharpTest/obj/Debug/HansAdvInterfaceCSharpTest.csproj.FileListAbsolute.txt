@@ -1,0 +1,25 @@
+C:\install\Han's Laser Marking Control SoftwareV1_1_1\HansAdvInterfaceCSharpTest.exe.config
+C:\install\Han's Laser Marking Control SoftwareV1_1_1\HansAdvInterfaceCSharpTest.exe
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.AddBarCodeForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.AddCurveForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.AddDotMatrixForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.AddPointForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.AddTextForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.ImportImageForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.ImportVectorForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.IOControlForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.LaserCmdParaForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.MainForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.MotorSetForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.MyImageTab.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.Properties.Resources.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.SaveMarkFileForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.SetFontParaForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.SetHatchParaForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.SetLayerParaForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.XYZPositionForm.resources
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.csproj.GenerateResource.cache
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.csproj.CoreCompileInputs.cache
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.exe
+C:\Users\guominghua\source\repos\Backup\HansAdvInterfaceCSharpTest\obj\Debug\HansAdvInterfaceCSharpTest.pdb
+C:\install\Han's Laser Marking Control SoftwareV1_1_1\HansAdvInterfaceCSharpTest.pdb

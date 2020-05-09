@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A162387B-CA5B-4082-AF4F-27756D30092A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HansAdvInterfaceCSharpTest</RootNamespace>
+    <AssemblyName>HansAdvInterfaceCSharpTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>penguin_executive.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\install\Han%27s Laser Marking Control SoftwareV1_1_1\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>D:\HANS LASER\Han%27s Laser Marking SoftwareV6_0_4\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBarCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBarCodeForm.Designer.cs">
+      <DependentUpon>AddBarCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCurveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCurveForm.Designer.cs">
+      <DependentUpon>AddCurveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDotMatrixForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDotMatrixForm.Designer.cs">
+      <DependentUpon>AddDotMatrixForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPointForm.Designer.cs">
+      <DependentUpon>AddPointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTextForm.Designer.cs">
+      <DependentUpon>AddTextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSharpInterface.cs" />
+    <Compile Include="ImportImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportImageForm.Designer.cs">
+      <DependentUpon>ImportImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportVectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportVectorForm.Designer.cs">
+      <DependentUpon>ImportVectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOControlForm.Designer.cs">
+      <DependentUpon>IOControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaserCmdParaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaserCmdParaForm.Designer.cs">
+      <DependentUpon>LaserCmdParaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotorSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotorSetForm.Designer.cs">
+      <DependentUpon>MotorSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyImageTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyImageTab.Designer.cs">
+      <DependentUpon>MyImageTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddBarCodeForm.resx">
+      <DependentUpon>AddBarCodeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCurveForm.resx">
+      <DependentUpon>AddCurveForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDotMatrixForm.resx">
+      <DependentUpon>AddDotMatrixForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPointForm.resx">
+      <DependentUpon>AddPointForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTextForm.resx">
+      <DependentUpon>AddTextForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportImageForm.resx">
+      <DependentUpon>ImportImageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportVectorForm.resx">
+      <DependentUpon>ImportVectorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOControlForm.resx">
+      <DependentUpon>IOControlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaserCmdParaForm.resx">
+      <DependentUpon>LaserCmdParaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotorSetForm.resx">
+      <DependentUpon>MotorSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyImageTab.resx">
+      <DependentUpon>MyImageTab.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveMarkFileForm.resx">
+      <DependentUpon>SaveMarkFileForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetFontParaForm.resx">
+      <DependentUpon>SetFontParaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetHatchParaForm.resx">
+      <DependentUpon>SetHatchParaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetLayerParaForm.resx">
+      <DependentUpon>SetLayerParaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XYZPositionForm.resx">
+      <DependentUpon>XYZPositionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SaveMarkFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveMarkFileForm.Designer.cs">
+      <DependentUpon>SaveMarkFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetFontParaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetFontParaForm.Designer.cs">
+      <DependentUpon>SetFontParaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetHatchParaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetHatchParaForm.Designer.cs">
+      <DependentUpon>SetHatchParaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetLayerParaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetLayerParaForm.Designer.cs">
+      <DependentUpon>SetLayerParaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XYZPositionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XYZPositionForm.Designer.cs">
+      <DependentUpon>XYZPositionForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_fil.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico00002.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon24.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon25.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\icon26.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="penguin_executive.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
